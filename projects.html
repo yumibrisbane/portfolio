@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UFT-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="projects.css">
+  </head>
+  <body>
+    <header>
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"></a>
+        <nav>
+          <div class="overlay-content">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <li class="dropdown"><a href="profile.html">Profile</a></li>
+              <ul class="dropdown-list">
+                <li><a href="skills.html">My skills</a></li>
+                <li><a href="contact.html">Contact me</a></li>
+              </ul>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <span onclick="openNav()" class="open">Click me!</span>
+    </header>
+    <main>
+      <h1>Projects</h1>
+      <p>Here are my projects</p>
+    </main>
+    <footer>
+
+    </footer>
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
+      
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+      </script>
+  </body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="resume.css">
+    <title>Yumi Edmunds/ Entry Level Front End Developer</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <ul>
+          <li><a href="index.html">Back to Home</a></li>
+          <li><a href="resume.html">Resume</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="resume">
+      <h1 class="resumeText">Resume</h1>
+      <p>Here is my resume</p>
+      </div>
+      <section>
+        <header>
+          <h1 id="border">Contact</h1>
+          <p id="headerText">Here is my contact details</P>
+        </header>
+        <p>Yumi Edmunds</p>
+        <p>0413-939-802</p>
+        <p>yumi.bad.125@gmail.com</p>
+        <p>12 Nandala Drive TANAH MERAH 4128 Queensland Australia</p>
+      </section>
+      <section>
+        <header>
+          <h1 id="border">Education</h1>
+          <p id="headerText">Here is my education</P>
+        </header>
+        <p>2012-2016</p>
+        <p>Nippon Sport Science University</p>
+        <p>Bachelor Of Sport Science</p>
+        <p>2017-2018</p>
+        <p>TAFE Queensland</p>
+        <p>Diploma Of Sport Developmetn</p>
+        <p>2022-current</p>
+        <p>TAFE Queensland</p>
+        <p>Diploma Of Information Technology (Back End Development & Front End Development)</p>
+      </section>
+      <section>
+        <header>
+          <h1 id="border">Skills</h1>
+          <p id="headerText">Here is my skills</P>
+        </header>
+        <p>HTML5</p>
+        <p>XHTML</p>
+        <p>CSS3</p>
+        <p>UX/UI Design</p>
+        <P>PJP/MySQL</P>
+        <p>CMS(WordPress)</p>
+        <p>Node.jp/noSQL</p>
+        <p>XML</p>
+        <p>JavaScript</p>
+        <p>jQuery</p>
+        <p>Database design and developmet</p>
+        <p>Quality assutance</p>
+        <p>Accessibility/Web standards</p>
+        <p>Web application development</p>
+        <p>IP, Ethics and privacy</p>
+      </section>
+      <section>
+        <header>
+          <h1 id="border">Employment</h1>
+          <p id="headerText">Here is my work experiences</P>
+        </header>
+        <p>06/2016-03/2018</p>
+        <p>Yeronga Park Swimming Complex, Brisbane</p>
+        <p>Swimming Instructor</p>
+        <p>04/2018-06/2019</p>
+        <p>Daiwa Food Corporation, Brisbane</p>
+        <p>Customer Service Officer</p>
+        <p>07/2019-01/2022</p>
+        <p>Chemist Warehouse, Brisbane</p>
+        <p>Pharmacy Assistant</p>
+      </section>
+    </main>
+    <footer>
+      <p>Thank you for visiting my Portfolio!</p>
+      <p>&copy; 2022 Yumi Edmunds</P>
+    </footer>
+     
+<script>
+  window.onscroll = function() {myFunction()};
+  
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+  
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+  </script>
+
+  </body>
+</html>

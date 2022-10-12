@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+    <title>Yumi Edmunds/ Entry Level Front End Developer</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="resume.html" target="_blank">Resume</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="topMain">
+      <h1>Welcome to Yumi's Portfolio</h1>
+      <p>I am an Entry level Front End Developer</p>
+      </div>
+      <section>
+        <header>
+          <h1 id="projects">Projects</h1>
+          <p>Here is my projects</P>
+        </header>
+        <div class="container">
+          <img src="image/abcoptical.jpg" alt="abcoptical">
+          <div class="top">
+            <button class="topText"><a href="https://yumibrisbane.github.io/abcoptical/" target="_blank">ABCOptical</a></button>
+          </div>
+        </div>
+        <div class="secondContainer">
+        <img src="image/mlstrength.jpg" alt="mlstrength">
+        <div class="overlay">
+          <button class="overlayText"><a href="https://yumibrisbane.github.io/mlstrength/" target="_blank">ML Strength</a></button>
+        </div>
+        </div>
+      </section>
+      <section>
+        <header>
+          <h1 id="profile">Profile</h1>
+          <p>About me</P>
+        </header>
+        <p class="aboutMe">Hello! My name is Yumi Edmunds. I have started studying a Diploma of Information Technology (Back End Development and Front End Development) at TAFE Queensland in June 2022. I am enjoying this course and am excited for my new career. I have some work experiences as a swimming instructor, customer service officer and phrmacy assistant. My goal is becoming a front end developer. I hope all my experiences would helps me acheive my goal. </p>
+      </section>
+    </main>
+    <footer>
+      <p>Thank you for visiting my Portfolio!</p>
+      <p>&copy; 2022 Yumi Edmunds</P>
+    </footer>
+    
+<script>
+  window.onscroll = function() {myFunction()};
+  
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+  
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+  </script>
+  </body>
+</html>
